@@ -1,0 +1,15 @@
+.header{
+    width: 100%;
+    line-height: 10em;
+    background-color: #82A0AA;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 2em;
+    color: #fff;
+    box-shadow:5px 3px 15px -5px rgba(0,0,0,0.2);
+    position:relative;
+}
+.header h2 {
+    font-size: 2em;
+}

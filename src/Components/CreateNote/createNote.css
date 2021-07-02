@@ -1,0 +1,77 @@
+form{
+    min-height: 50px;
+    color:#ecf0f1;
+    padding:15px 10px 5px 10px;
+    box-shadow: 3px 5px 15px -5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    position: relative;
+}
+
+.main_note{
+    width: 500px;
+    padding:15px 10px 5px 10px;
+    margin: 20px auto;
+}
+input{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+textarea{
+    width: 100%;
+    line-height: 30px;
+    border:none;
+    outline: none;
+    font-size:1rem;
+    margin: 10px 0;
+}
+.my_note h1{
+    color:#34495e;
+}
+.my_notes{
+    color:gray;
+}
+.MuiButton-root{
+    width: 30px;
+    height:50px;
+    position:absolute;
+    bottom:-28px;
+    left:400px;
+    cursor:pointer;
+    background-color:#fff !important;
+    box-shadow: 3px 5px 15px -5px rgba(0,0,0,0.3);
+    border-radius: 50% !important;
+
+}
+.MuiButton-root .plus_sign{
+    font-size:45px !important;
+    font-weight: 900;
+    color:#677381;
+    cursor:pointer;
+    z-index:222;
+    background: transparent;
+}
+.MuiButton-root:hover{
+    background: #677381 !important;
+    
+}
+ .plus_sign:hover{
+color: #fff;
+background: transparent;
+}
+@media screen and  (max-width:506px) {
+    .MuiButton-root{
+        position:absolute;
+        bottom:-28px;
+        left:80%;
+    }
+    .main_note{
+        width: 80vw;
+    }
+    
+}
